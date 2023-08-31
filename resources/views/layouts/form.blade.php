@@ -47,10 +47,6 @@
           <!-- Navbar items -->
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link nav-link-icon" href="../index.html">
-                <i class="ni ni-planet"></i>
-                <span class="nav-link-inner--text">Inicio</span>
-              </a>
             </li>
             <li class="nav-item">
               <a class="nav-link nav-link-icon" href="{{ route('register')}}">
@@ -64,12 +60,6 @@
                 <span class="nav-link-inner--text">Iniciar sesión</span>
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link nav-link-icon" href="../examples/contacto.html">
-                <i class="ni ni-single-02"></i>
-                <span class="nav-link-inner--text">Contactenos</span>
-              </a>
-            </li>
           </ul>
         </div>
       </div>
@@ -81,27 +71,13 @@
           <div class="row justify-content-center">
             <div class="col-lg-5 col-md-6">
               <h1 class="text-white">Bienvenidos!</h1>
-              <p class="text-lead text-light">Gracias por Registrarse en nuestro sistema de administracion de citas, para seguir gozando de nuestros beneficios inicia sesión.</p>
-            </div>
+           </div>
           </div>
         </div>
       </div>
-      <div class="separator separator-bottom separator-skew zindex-100">
-        <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
-          <polygon class="fill-default" points="2560 0 2560 100 0 100"></polygon>
-        </svg>
-      </div>
     </div>
    @yield('content')
-    <!-- Footer-->
-    <footer class="py-5">
-      <div class="container">
-        <div class="row align-items-center justify-content-xl-between">
-          <div class="col-xl-6">
-            
-        </div>
-      </div>
-    </footer>
+
   </div>
   <!--   Core   -->
   <script src="{{ asset('js/plugins/jquery/dist/jquery.min.js') }}"></script>
